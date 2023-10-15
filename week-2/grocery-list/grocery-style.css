@@ -1,6 +1,6 @@
 
 header {
-    width: 500px;
+    width: 800px;
 }
 
 h1 {
@@ -42,8 +42,12 @@ td, ul {
     width: 500px;
 }
 
-
 table {
     column-gap: 60px;
     border-spacing: 20px;
+}
+
+.images {
+    margin-top: 5px;
+    padding: 10px;
 }
