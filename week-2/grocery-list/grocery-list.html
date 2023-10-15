@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syaz Neverending Grocery list</title>
     <link href='grocery-style.css' rel='stylesheet'>
+    <style>
+        body {
+            margin-left: 100px;
+            margin-right: 100px;
+            width: 800px;
+        }
+        main {
+            float: left;
+        }
+
+        nav {
+            float: right;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,7 +28,7 @@
         <h1>Mo Groceries, Mo Better</h1>
     </header>
 
-    <article>
+    <main>
         <section class="pantry">
             <h2>Pantry Items</h2>
             <table> 
@@ -50,12 +65,6 @@
             </table>
         </section>
         
-        <section class= "pantry-images"></section>
-        <img style ="width:100px;" src ="https://thenounproject.com/api/private/icons/3508350/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0" alt="canned goods">
-        <img style ="width:100px;" src ="https://thenounproject.com/api/private/icons/3508345/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0" alt="bread">
-        <img style ="width:100px;" src ="https://thenounproject.com/api/private/icons/3508350/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0" alt="fish">
-        </section>
-        
         <br>
 
         <section class="freezer">
@@ -85,12 +94,19 @@
             </table>
         </section>
 
-        <section class ="freezer-images">
-        <img style ="width:100px;" src ="https://thenounproject.com/api/private/icons/3508347/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0">
-        <img style ="width:100px;" src ="https://thenounproject.com/api/private/icons/3514003/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0">
-        <img style ="width:100px;" src ="https://thenounproject.com/api/private/icons/3514005/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0">
-        </section>
-    </article>
-</body>
+    </main>
 
+    <nav>
+        <h2>Links</h2>
+        <section class= "images">
+        <img style ="width:200px;" src ="https://img.freepik.com/free-vector/hand-drawn-pantry-illustration_23-2148714816.jpg" alt="pantry">
+        
+        <br>
+
+            <img style ="width:200px;" src ="https://img.freepik.com/free-vector/full-food-opened-refrigerator-fridge-fruit-freezer-vegetable_1284-44196.jpg" alt="freezer">
+        </section>
+
+    </nav>
+
+</body>
 </html>
