@@ -9,6 +9,6 @@ All the things I created @ Software Engineering Immersive 2023
 - HTML/CSS Foundations: A practice page about [Animals](https://github.com/syazski/fullstack-stuff/tree/main/week-2/workshop-zoo)
 - CSS Foundations: A page of my [Grocery list](https://github.com/syazski/fullstack-stuff/tree/main/week-2/grocery-list)
 
-##Week 3
+## Week 3
 - Javascript Foundations: [guided-practice.js](https://github.com/syazski/fullstack-stuff/blob/main/week-3/guided-practice.js)
 - Javascript Foundations: Created alert on browser [block07-vault.js](https://github.com/syazski/fullstack-stuff/blob/main/week-3/block07-vault.js)
