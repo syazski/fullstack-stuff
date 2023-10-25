@@ -14,4 +14,4 @@ All the things I created @ Software Engineering Immersive 2023
 - Javascript Foundations: Created alert on browser [block07-vault.js](https://github.com/syazski/fullstack-stuff/blob/main/week-3/block07-vault.js)
 
 ## Week 4
-- Practice practice practice by ceating a personal site
+- Practice practice practice by creating a personal site
