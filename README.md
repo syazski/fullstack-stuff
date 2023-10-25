@@ -12,3 +12,6 @@ All the things I created @ Software Engineering Immersive 2023
 ## Week 3
 - Javascript Foundations: [guided-practice.js](https://github.com/syazski/fullstack-stuff/blob/main/week-3/guided-practice.js)
 - Javascript Foundations: Created alert on browser [block07-vault.js](https://github.com/syazski/fullstack-stuff/blob/main/week-3/block07-vault.js)
+
+## Week 4
+- Practice practice practice by ceating a personal site
