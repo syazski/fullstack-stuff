@@ -1,0 +1,48 @@
+/* if screen is 768 or smaller, display as block? */
+@media screen and (max-width:768px){
+    .grid-container {
+        display: block;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template:
+    "art-1 art-2 art-3" auto
+    "art-4 art-5 art-6" auto;
+    gap: 5px;
+    padding: 10px;
+
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.art-1 {
+    border: 1px dotted salmon;
+    z-index: 1;
+}
+
+.art-2 {
+    border: 1px dotted salmon;
+}
+
+.art-3 {
+    border: 1px dotted salmon;
+}
+
+.art-4 {
+    border: 1px dotted salmon;
+}
+
+.art-5 {
+    border: 1px dotted salmon;
+}
+
+.art-6 {
+    border: 1px dotted salmon;
+}
