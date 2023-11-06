@@ -19,13 +19,13 @@ if (numYards === 1760) {
 
 }
 
-return ${yards} yards is ${message}
+return "${yards} yards is ${message}. ${message}";
 
 let inputYards = prompt("Input yard amount to convert")
-console.log(inputYards)
+console.log(inputYards);
 
 let convertedNum = convertToMeters(inputYards)
-console.log ("Converted Meters:", convertedNum)
+console.log ("Converted Meters:", convertedNum);
 
 
     
