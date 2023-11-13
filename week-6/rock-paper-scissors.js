@@ -50,25 +50,25 @@ const determineWinner = (userChoice, computerChoice) => {
 
 else {
   if (userChoice === 'rock') {
-    if(computerChoice === 'scissors') {
-      return "You won!";
+    if(userChoice === 'paper') {
+      return "Computer won!";
       } 
       else {
-        return "Computer won";
+        return "You won!";
       };
 } 
 };
 
-  if (userChoice === 'scissor') {
-    if (computerChoice === 'paper') {
-      return "You won!";
+  if (userChoice === 'paper') {
+    if (computerChoice === 'scissors') {
+      return "Computer won";
       } else {
-        return "Computer won";
+        return "You won!";
       };
       };
 
-  if (userChoice === 'paper') {
-    if (computerChoice === 'rock') {
+  if (userChoice === 'scissors') {
+    if (computerChoice === 'paper') {
       return "You won!";
       } else {
         return "Computer won";
@@ -76,17 +76,21 @@ else {
   };
 };
 
+
 //TEST CODE
-//console.log(determineWinner('scissor','rock'));
+//console.log(determineWinner('scissors','rock'));
 
 /*STEP 4: start game and determine winner
 Create playGame function*/
 
 function playGame() {
-    const userChoice = getUserChoice();
-    const computerChoice = getComputerChoice();
-    console.log("You threw: " + userChoice);
-    computerChoice("The computer threw: " + computerChoice);
+  const userChoice = getUserChoice('paper');
+  console.log("You threw: " + userChoice);
+  
+  const computerChoice = getComputerChoice();
+ console.log("The computer threw: " + computerChoice);
+
+  console.log(determineWinner(userChoice,computerChoice));
 }
 
-console.log(playGame());
+playGame();
